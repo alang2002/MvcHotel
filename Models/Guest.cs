@@ -15,7 +15,6 @@ namespace MvcHotel.Models
         [Required]
         [Display(Name = "Last Name")]
         public string LName { get; set; }
-        [RegularExpression(@"^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$")]
         public int PhoneNum { get; set; }
 
         [DataType(DataType.Date)]
